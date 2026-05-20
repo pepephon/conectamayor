@@ -1086,15 +1086,15 @@ Los primeros testeos con 15 personas en el centro de mayores de nuestro barrio m
   }
 
   // ---- Video upload ----
-  function handleVideo(input) {
-    const file = input.files[0];
-    if (!file) return;
-    const url = URL.createObjectURL(file);
-    const player = document.getElementById('vid-player');
-    const preview = document.getElementById('video-preview');
-    player.src = url;
-    preview.style.display = 'block';
-    player.scrollIntoView({ behavior: 'smooth', block: 'center' });
+ # function handleVideo(input) {
+  #  const file = input.files[0];
+   # if (!file) return;
+   # const url = URL.createObjectURL(file);
+   # const player = document.getElementById('vid-player');
+    # const preview = document.getElementById('video-preview');
+   # player.src = url;
+   # preview.style.display = 'block';
+   # player.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
   // ---- URL video preview ----
